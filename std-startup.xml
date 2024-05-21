@@ -1,0 +1,202 @@
+<aiml version="2.0" encoding="UTF-8">
+    <!-- Standard startup AIML file -->
+    
+    <!-- Greetings -->
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Hi there! How can I assist you?</template>
+    </category>
+    <category>
+        <pattern>HI</pattern>
+        <template>Hello! How can I help you today?</template>
+    </category>
+    <category>
+        <pattern>HOW ARE YOU</pattern>
+        <template>I'm just a bot, so I don't have feelings, but I'm here to help you!</template>
+    </category>
+    <category>
+        <pattern>WHAT'S UP</pattern>
+        <template>Not much, just here to answer your questions. How about you?</template>
+    </category>
+    <category>
+        <pattern>GOOD MORNING</pattern>
+        <template>Good morning! How can I assist you today?</template>
+    </category>
+    <category>
+        <pattern>GOOD AFTERNOON</pattern>
+        <template>Good afternoon! How can I assist you today?</template>
+    </category>
+    <category>
+        <pattern>GOOD EVENING</pattern>
+        <template>Good evening! How can I assist you today?</template>
+    </category>
+    
+    <!-- Jokes -->
+    <category>
+        <pattern>TELL ME A JOKE</pattern>
+        <template>Why don't scientists trust atoms? Because they make up everything!</template>
+    </category>
+    <category>
+        <pattern>DO YOU KNOW ANY JOKES</pattern>
+        <template>Why did the computer go to the doctor? Because it had a virus!</template>
+    </category>
+    <category>
+        <pattern>GIVE ME A FUNNY JOKE</pattern>
+        <template>What do you call fake spaghetti? An impasta!</template>
+    </category>
+    <category>
+        <pattern>TELL ME SOMETHING FUNNY</pattern>
+        <template>Why don't skeletons fight each other? They don't have the guts!</template>
+    </category>
+    <category>
+        <pattern>TALK TO ME LIKE A HUMAN</pattern>
+        <template>Sure thing! I'll do my best to chat with you like a human. So, how's your day going?</template>
+    </category>
+    <category>
+        <pattern>TALK TO ME LIKE A FRIEND</pattern>
+        <template>Of course! Friends chat about anything and everything. What's on your mind?</template>
+    </category>
+    
+    <!-- About College -->
+    <category>
+        <pattern>WHAT IS LDRP INSTITUTE OF TECHNOLOGY AND RESEARCH</pattern>
+        <template>LDRP Institute of Technology and Research is a leading institution in the field of engineering and technology. It offers various undergraduate and postgraduate programs.</template>
+    </category>
+    <category>
+        <pattern>WHERE IS LDRP INSTITUTE OF TECHNOLOGY AND RESEARCH LOCATED</pattern>
+        <template>LDRP Institute of Technology and Research is located in Gandhinagar, Gujarat, India.</template>
+    </category>
+    <category>
+        <pattern>WHAT MAKES LDRP INSTITUTE OF TECHNOLOGY AND RESEARCH UNIQUE</pattern>
+        <template>LDRP Institute of Technology and Research stands out for its innovative approach to education, cutting-edge research facilities, and commitment to student success.</template>
+    </category>
+    <category>
+        <pattern>WHY SHOULD I CONSIDER LDRP INSTITUTE OF TECHNOLOGY AND RESEARCH</pattern>
+        <template>LDRP Institute of Technology and Research offers top-notch academic programs, hands-on learning experiences, and a vibrant campus community. It's a great place to pursue your academic and career goals.</template>
+    </category>
+    
+    <!-- Admission -->
+    <category>
+        <pattern>HOW CAN I APPLY FOR ADMISSION</pattern>
+        <template>To apply for admission, you need to visit the official website of LDRP Institute of Technology and Research and follow the instructions provided in the admission section.</template>
+    </category>
+    <category>
+        <pattern>WHAT ARE THE ADMISSION REQUIREMENTS</pattern>
+        <template>The admission requirements vary depending on the program you're applying for. You can find detailed information about admission requirements on the official website of LDRP Institute of Technology and Research.</template>
+    </category>
+    <category>
+        <pattern>IS THERE AN APPLICATION DEADLINE</pattern>
+        <template>Yes, there is an application deadline for each program. It's important to check the official website for specific deadlines and application procedures.</template>
+    </category>
+    <category>
+        <pattern>WHAT DOCUMENTS DO I NEED FOR ADMISSION</pattern>
+        <template>The required documents for admission typically include academic transcripts, standardized test scores, letters of recommendation, and a personal statement. Be sure to review the specific requirements for your chosen program.</template>
+    </category>
+    
+    <!-- Courses -->
+    <category>
+        <pattern>WHAT PROGRAMS DOES THE COLLEGE OFFER</pattern>
+        <template>LDRP Institute of Technology and Research offers a wide range of undergraduate and postgraduate programs in engineering, technology, management, and more.</template>
+    </category>
+    <category>
+        <pattern>CAN YOU TELL ME ABOUT THE COMPUTER SCIENCE PROGRAM</pattern>
+        <template>The Computer Science program at LDRP Institute of Technology and Research is designed to provide students with a strong foundation in computer science principles and practical skills. Students have the opportunity to explore areas such as artificial intelligence, software engineering, and cybersecurity.</template>
+    </category>
+    <category>
+        <pattern>WHAT ELECTIVE COURSES ARE AVAILABLE</pattern>
+        <template>LDRP Institute of Technology and Research offers a variety of elective courses across different disciplines. Some popular options include data science, machine learning, entrepreneurship, and sustainable development.</template>
+    </category>
+    <category>
+        <pattern>ARE THERE ANY INTERNSHIP OPPORTUNITIES</pattern>
+        <template>Yes, LDRP Institute of Technology and Research partners with industry leaders to offer internship opportunities for students. These internships provide valuable hands-on experience and help students develop essential skills for their future careers.</template>
+    </category>
+    
+    <!-- Facilities -->
+    <category>
+        <pattern>WHAT FACILITIES DOES THE COLLEGE PROVIDE</pattern>
+        <template>LDRP Institute of Technology and Research provides state-of-the-art facilities including laboratories, libraries, sports facilities, and more to support the academic and extracurricular activities of students.</template>
+    </category>
+    <category>
+        <pattern>IS THERE A HOSTEL FACILITY AVAILABLE</pattern>
+        <template>Yes, LDRP Institute of Technology and Research provides hostel facilities for both male and female students.</template>
+    </category>
+    
+    <!-- Bot's Name -->
+    <category>
+        <pattern>WHAT IS YOUR NAME</pattern>
+        <template>My name is E-Bot.</template>
+    </category>
+
+    <!-- Show LDRP Image -->
+    <category>
+        <pattern>LDRP IMAGE</pattern>
+        <template>Here is an image of LDRP Institute of Technology and Research: <img src="https://www.addressguru.in/images/1670675220.png" /></template>
+    </category>
+    
+    <!-- Additional Questions -->
+    
+    <!-- Question 1 -->
+    <category>
+        <pattern>GIVE ME DATA OF THIS ENROLLMENT NUMBER 21BECE30036</pattern>
+        <template><srai>ENROLLMENT NUMBER 21BECE30036 DATA</srai></template>
+    </category>
+    
+    <!-- Question 2 -->
+    <category>
+        <pattern>GIVE ME DATA OF THIS ENROLLMENT NUMBER 21BECE30007</pattern>
+        <template><srai>ENROLLMENT NUMBER 21BECE30007 DATA</srai></template>
+    </category>
+    
+    <!-- Question 3 -->
+    <category>
+        <pattern>GIVE ME DATA OF THIS ENROLLMENT NUMBER 21BECE30029</pattern>
+        <template><srai>ENROLLMENT NUMBER 21BECE30029 DATA</srai></template>
+    </category>
+    
+    <!-- Enrollment Number Database -->
+    <category>
+        <pattern>ENROLLMENT NUMBER 21BECE30036 DATA</pattern>
+        <template>Your name is Nimisha Ajitkumar Dabhi. Your attendance is 88.5 percent. Your SPI is 9.2.</template>
+    </category>
+    
+    <category>
+        <pattern>ENROLLMENT NUMBER 21BECE30007 DATA</pattern>
+        <template>Name: Pranjal Ambwani. SPI: 9.2. Attendance: 90 percent.</template>
+    </category>
+    
+    <category>
+        <pattern>ENROLLMENT NUMBER 21BECE30029 DATA</pattern>
+        <template>Name: Riya Chaudhary. SPI: 9.2. Attendance: 89.6 percent.</template>
+    </category>
+    
+    <!-- Default Response -->
+    <category>
+        <pattern>*</pattern>
+        <template>I'm sorry, I didn't understand your question. Can you please rephrase it?</template>
+    </category>
+
+    <!-- SPI (Semester Performance Index) -->
+    <category>
+        <pattern>MY SPI IS *</pattern>
+        <template>
+            <think>
+                <set name="spi"><star/></set>
+            </think>
+            Got it! Your SPI has been updated to <star/>.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT IS MY SPI</pattern>
+        <template>
+            <condition name="spi">
+                <li value="*">
+                    Your Semester Performance Index (SPI) is <get name="spi"/>.
+                </li>
+                <li>
+                    I'm sorry, I don't have your SPI information.
+                </li>
+            </condition>
+        </template>
+    </category>
+</aiml>

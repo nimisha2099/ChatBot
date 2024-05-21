@@ -1,0 +1,43 @@
+<aiml>
+    <!-- Greetings -->
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Hello! How can I assist you?</template>
+    </category>
+    <category>
+        <pattern>HI</pattern>
+        <template>Hi there! What can I help you with?</template>
+    </category>
+    
+    <!-- Attendance Queries -->
+    <category>
+        <pattern>WHAT IS MY ATTENDANCE</pattern>
+        <template>Your attendance is 85%. Keep up the good work!</template>
+    </category>
+    <category>
+        <pattern>HOW IS MY ATTENDANCE</pattern>
+        <template>Your current attendance stands at 85%.</template>
+    </category>
+    <category>
+        <pattern>AM I ELIGIBLE TO SIT IN THE EXAMS</pattern>
+        <template>As per your current attendance, you are eligible to sit in the exams.</template>
+    </category>
+    <!-- Add more patterns and responses for attendance queries -->
+    
+    <!-- College Name Queries -->
+    <category>
+        <pattern>WHAT IS THE NAME OF MY COLLEGE</pattern>
+        <template>Your college is LDRP Institute of Technology and Research.</template>
+    </category>
+    <category>
+        <pattern>WHERE AM I STUDYING</pattern>
+        <template>You are studying at LDRP Institute of Technology and Research.</template>
+    </category>
+    <!-- Add more patterns and responses for college name queries -->
+    
+    <!-- Default Response -->
+    <category>
+        <pattern>*</pattern>
+        <template>I'm sorry, I didn't understand your question. Can you please rephrase it?</template>
+    </category>
+</aiml>

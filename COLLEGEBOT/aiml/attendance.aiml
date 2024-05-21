@@ -1,0 +1,47 @@
+<aiml>
+    <!-- Greetings -->
+    <category>
+        <pattern>HELLO</pattern>
+        <template>Hello! How can I assist you?</template>
+    </category>
+    <category>
+        <pattern>HI</pattern>
+        <template>Hi there! What can I help you with?</template>
+    </category>
+    
+    <!-- Set Attendance -->
+    <category>
+        <pattern>MY ATTENDANCE IS *</pattern>
+        <template>
+            <set name="attendance"><star/></set>
+            Thank you for providing your attendance information.
+        </template>
+    </category>
+    
+    <!-- Get Attendance -->
+    <category>
+        <pattern>WHAT IS MY ATTENDANCE</pattern>
+        <template>
+            <condition name="attendance">
+                <li><get name="attendance" />%</li>
+                <li>I'm sorry, I don't have your attendance information yet. Please provide it first.</li>
+            </condition>
+        </template>
+    </category>
+    
+    <!-- College Name Queries -->
+    <category>
+        <pattern>WHAT IS THE NAME OF MY COLLEGE</pattern>
+        <template>Your college is LDRP Institute of Technology and Research.</template>
+    </category>
+    <category>
+        <pattern>WHERE AM I STUDYING</pattern>
+        <template>You are studying at LDRP Institute of Technology and Research.</template>
+    </category>
+    
+    <!-- Default Response -->
+    <category>
+        <pattern>*</pattern>
+        <template>I'm sorry, I didn't understand your question. Can you please rephrase it?</template>
+    </category>
+</aiml>
